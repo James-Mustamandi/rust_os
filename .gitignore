@@ -1,0 +1,21 @@
+# Ignore Cargo build artifacts
+/target/
+
+# Keep custom target specification files
+!x86_64-rust_os.json
+!targets/*.json
+
+# Ignore Cargo's lock file for libraries (optional keep for binaries)
+# If this is a binary crate, you might want to keep Cargo.lock
+# /Cargo.lock
+
+# Ignore backup / temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
